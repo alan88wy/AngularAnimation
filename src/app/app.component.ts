@@ -5,10 +5,7 @@ import { slideAnimation, dissolveAnimation } from './animations';
 @Component({
   selector: 'app-root',
   template: `
-    <nav
-      class="navbar navbar-toggleable-sm fixed-top navbar-inverse mb-4"
-      style="background-color:#5c2509;"
-    >
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <button
         class="navbar-toggler navbar-toggler-right"
         type="button"
